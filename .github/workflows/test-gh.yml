@@ -49,6 +49,6 @@ jobs:
         export VENDIR_E2E_HELM2_BINARY=helm2
         export VENDIR_E2E_HELM3_BINARY=helm3
 
-        ./hack/build.sh $VERSION
+        ./hack/build.sh
         ./hack/test-all.sh
         ./hack/build-binaries.sh
